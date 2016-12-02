@@ -24,11 +24,13 @@
         <div id="author"></div>
 
         <div class="refresh">
-          <button id="refresh" onclick="doIt()"><i class="fa fa-refresh fa-stack-2x"> New Quote</i></button>
+          <span class="refresh-transparent" onclick="doIt()"><i class="fa fa-refresh fa-stack-3x"> New Quote</i></span>
         </div>
 
         <div class="tweet">
-        <a href="https://twitter.com/share" id="tweet" class="twitter-share-button" data-show-count="false"><i class="fa fa-twitter fa-stack-3x"></i></a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a href="https://twitter.com/intent/tweet" id="tweet" class="twitter-share-button" data-show-count="true">
+          <i class="fa fa-twitter fa-stack-3x"></i>
+          </a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
     </div> <!-- textarea -->
   </div> <!-- content -->
