@@ -1,11 +1,11 @@
 var colors = [
-  "rgb(51, 219, 255)",
-  "rgb(255, 87, 51)",
-  "rgb(255, 189, 51)",
-  "rgb(219, 255, 51)",
-  "rgb(117, 255, 51)",
-  "rgb(51, 255, 87)",
-  "rgb(51, 255, 189)",
+  "lightblue",
+  "lightgreen",
+  "lightpink",
+  "lightyellow",
+  "lightskyblue",
+  "mistyrose",
+  "lemonchiffon",
 ];
 
 $(document).ready(function() {
