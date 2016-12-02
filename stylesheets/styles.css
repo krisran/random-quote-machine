@@ -110,3 +110,9 @@ table {
   text-align: center;
   color: #333;
 }
+
+#refresh {
+    background: transparent;
+    border: none !important;
+    font-size: 0;
+}
