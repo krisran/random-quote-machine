@@ -111,7 +111,7 @@ table {
   color: #333;
 }
 
-#refresh {
+.refresh-transparent {
     background-color: transparent;
     border: none !important;
     font-size: 0;
