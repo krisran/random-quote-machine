@@ -112,7 +112,7 @@ table {
 }
 
 #refresh {
-    background: transparent;
+    background-color: transparent;
     border: none !important;
     font-size: 0;
 }
