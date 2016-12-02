@@ -1,2 +1,2 @@
-# random-quote-machine
-Random Quote Machine: A Free Code Camp Project
+Random Quote Machine
+A Free Code Camp Project
