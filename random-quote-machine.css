@@ -64,33 +64,33 @@ a {
 /* small display */
 @media (max-width: 480px) {
   .content {
-    height: 90%;
-    width: 90%;
-    top: 5%; left: 5%; bottom: 5%; right: 5%;
-    font-size: 22px;
+    	height: 90%;
+    	width: 90%;
+    	top: 5%; left: 5%; bottom: 5%; right: 5%;
+    	font-size: 22px;
   }
 }
 
 /* medium display */
 @media (min-width: 481px) and (max-width: 768px) {
   .content {
-     height: 70%;
-		 width: 70%
-     top: 15%; left: 15%; bottom: 15%; right: 15%;
-     font-size: 24px;
+     	height: 70%;
+     	width: 70%
+     	top: 15%; left: 15%; bottom: 15%; right: 15%;
+     	font-size: 24px;
   }
 }
 /* large display */
 @media (min-width: 769px) and (max-width: 960px) {
   .content {
-     height: 60%;
-     width: 60%;
-     top: 20%; left: 20%; bottom: 20%; right: 20%; /* Set the bounds in which to center it, relative to its parent/container */
-     font-size: 28px;
+     	height: 60%;
+     	width: 60%;
+     	top: 20%; left: 20%; bottom: 20%; right: 20%; 
+     	font-size: 28px;
   }
 }
 
-/* large display */
+/* x-large display */
 @media (min-width: 961px) {
   .content {
      height: 50%;
@@ -102,21 +102,21 @@ a {
 .textarea {
 	width: 100%;
 	height: 100%;
-  position: relative;
+  	position: relative;
 	color: #222;
 	padding: 5%;
 }
 
 #quote {
-  text-align: left;
-  font-size: 1em;
+  	text-align: left;
+  	font-size: 1em;
 	line-height: 1.5em;
 }
 #author {
-  text-align: right;
-  font-size: 0.75em;
-  font-style: italic;
-  padding-top: 5%;
+  	text-align: right;
+  	font-size: 0.75em;
+  	font-style: italic;
+  	padding-top: 5%;
 }
 
 .buttons {
@@ -124,7 +124,7 @@ a {
 }
 .left {
 	text-align: left;
-  display: inline;
+  	display: inline;
 	float: left;
 }
 .right {
@@ -136,13 +136,13 @@ a {
 	color: #444;
 }
 .quote-button {
-    background-color: #444;
-    border: none;
-    color: white;
-		padding: 14px;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-		font-family: verdana, sans-serif;
+   	background-color: #444;
+   	border: none;
+    	color: white;
+	padding: 14px;
+    	text-align: left;
+    	text-decoration: none;
+    	display: inline-block;
+    	font-size: 14px;
+	font-family: verdana, sans-serif;
 }
