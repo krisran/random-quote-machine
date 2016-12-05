@@ -1,21 +1,32 @@
 var colors = [
-  "lightblue",
-  "lightgreen",
-  "lightpink",
-  "lightyellow",
-  "lightskyblue",
-  "mistyrose",
-  "lemonchiffon",
+  "snow",
+  "honeydew",
+  "mintcream",
+  "azure",
+  "aliceblue",
+  "ghostwhite",
+  "whitesmoke",
+  "seashell",
+  "beige",
+  "oldlace",
+  "floralwhite",
+  "ivory",
+  "antiquewhite",
+  "linen",
+  "lavenderblush",
+  "mistyrose"
 ];
-
+var quoteString = "";
+var quoteAuthor = "";
+var num = 0;
 $(document).ready(function() {
       doIt();
 });
 
 function doIt() {
 
-  var num = Math.floor(Math.random() * (6 - 0 + 1)) + 0;
-    $('Body').css('background-color', colors[num]);
+  num = Math.floor(Math.random() * (16 - 0 + 1)) + 0;
+  $('Body').css('background-color', colors[num]);
 
    var output = $.ajax({
       url: 'https://andruxnet-random-famous-quotes.p.mashape.com/', // The URL to the API. You can get this by clicking on "Show CURL example" from an API profile
@@ -24,8 +35,13 @@ function doIt() {
       dataType: 'json',
       success: function(data) {
 
-        document.getElementById("quote").innerHTML = data.quote;
-        document.getElementById("author").innerHTML = " - "+ data.author;
+        quoteString = "\"" + data.quote + "\"";
+        quoteAuthor = " - " + data.author;
+
+        document.getElementById("quote").innerHTML = quoteString;
+        document.getElementById("author").innerHTML = quoteAuthor;
+
+
         },
         error: function(err) { alert(err); },
         beforeSend: function(xhr) {
